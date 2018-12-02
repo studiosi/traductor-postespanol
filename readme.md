@@ -1,4 +1,4 @@
-= Traductor Español -> Post-Español
+# Traductor Español -> Post-Español
 
 Desarrollado como parte del manifiesto en defensa del Post-Español, un proyecto de Homo Velamine.
 
