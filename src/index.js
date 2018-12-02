@@ -97,10 +97,10 @@ function Traductor() {
         else {
           p = p.toLowerCase()
         }
-        p = this.breakWord(p, 15);
+        p = this.breakWord(p, 10);
         palabrasMod.push(p);
         rnd = Math.floor(Math.random() * 101);
-        if (rnd <= 15) {
+        if (rnd <= 3) {
           palabrasMod.push("&nbsp;");
         }
       }
