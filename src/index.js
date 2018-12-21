@@ -318,18 +318,18 @@ function Traductor() {
         }
       }
     }
-    else if (rnd == 2) {
-      p = p.slice(0, -1);
-      let nS = Math.floor(Math.random() * 2) + 1;
-      for(let i = 0; i < nS; i++) {
-        if(fin == "s") {
-            p += "n";
-        }
-        else {
-          p += "N";
-        }
-      }
-    }
+    //else if (rnd == 2) {
+    //  p = p.slice(0, -1);
+    //  let nS = Math.floor(Math.random() * 2) + 1;
+    //  for(let i = 0; i < nS; i++) {
+    //    if(fin == "s") {
+    //        p += "n";
+    //    }
+    //    else {
+    //      p += "N";
+    //    }
+    //  }
+    //}
     return p;
   }
   this.getChangedCaseSingleChar = function(c) {
